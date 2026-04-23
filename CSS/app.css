@@ -1,0 +1,684 @@
+@import "fonts.css";
+@import "reset.css";
+@import "grid.css";
+@import "default.css";
+
+body {
+    font-family: "Mona sans", sans-serif;
+}
+
+/* 
+help classes
+*/
+.show {
+    display: block;
+}
+
+/* 
+Header
+*/
+.header {
+    margin-top: 4rem;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-img {}
+
+.header__logo-text {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-menu__item {}
+
+.header-menu__link {}
+
+.header-main {
+    margin: 4rem 0 2rem 0;
+}
+
+.header__title {
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: 600;
+}
+
+.header__image-wrapper {
+    margin-top: 13rem;
+    position: relative;
+}
+
+.header__image {
+    width: 100%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.header__image-text {
+    width: 34%;
+    color: #fff;
+    line-height: 2.8rem;
+    position: absolute;
+    bottom: 27px;
+    left: 33px;
+}
+
+.header__image-top {
+    width: 25%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    position: absolute;
+    top: -13.6rem;
+    right: 4.2rem;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+/* 
+Main
+*/
+.main {}
+
+.innovation-agriculture {}
+
+.innovation-agriculture-body {
+    background-color: #003E39;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+.innovation-agriculture__init {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.innovation-agriculture__init-title {
+    font-size: 3rem;
+    line-height: 4rem;
+    width: 33%;
+}
+
+.innovation-agriculture__init-text {
+    width: 33%;
+    line-height: 2rem;
+    color: #a7cac7;
+}
+
+.innovation-agriculture__infos {}
+
+.innovation-agriculture__infos-item {
+    position: relative;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.innovation-agriculture__infos-item-second {
+    height: 392px;
+    background-image: url(../images/innovation-agriculture.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.innovation-agriculture__infos-item-third {
+    height: 392px;
+    background-image: url(../images/innovation-agriculture.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.innovation-agriculture__infos-img {
+    width: 100%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.innovation-agriculture__infos-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 12rem;
+    background-color: #0f4c3a;
+    clip-path: polygon(0 40%, 100% 0, 100% 100%, 0% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innovation-agriculture__infos-shape {
+    width: 75%;
+    height: 5rem;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    border: 2px solid #003E39;
+}
+
+.innovation-agriculture__infos-shape-middle {
+    width: 95%;
+}
+
+.innovation-agriculture__infos-text {}
+
+.innovation-agriculture__infos-item-feature {
+    width: 94%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: black;
+    background-color: #fff;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    padding: 1rem;
+}
+
+.innovation-agriculture__infos-item-feature-icon {
+    width: 2rem;
+    fill: #fff;
+}
+
+.innovation-agriculture__infos-item-feature-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.innovation-agriculture__infos-item-feature-title {
+    font-size: 1.4rem;
+}
+
+.innovation-agriculture__infos-item-feature-text {
+    font-size: 1rem;
+    margin-left: 0.8rem;
+    color: #b9b4b4;
+}
+
+.innovation-agriculture__infos-item-feature-subtitle {
+    font-size: 1.2rem;
+    color: #b9b4b4;
+}
+
+.innovation-agriculture-description {
+    margin: 4rem 0 8rem 0;
+    color: #003E39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innovation-agriculture-description__text {
+    width: 71%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 4rem;
+}
+
+.innovation-agriculture-statistics {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.innovation-agriculture-statistics__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.innovation-agriculture-statistics__count {
+    color: #003E39;
+    font-size: 5rem;
+    line-height: 6rem;
+    font-weight: 600;
+}
+
+.innovation-agriculture-statistics__title {
+    width: 90%;
+    text-align: center;
+    color: #0f4c3a;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.immersive-agriculture {
+    background-color: #ebebeb;
+    padding: 5rem 0;
+}
+
+.immersive-agriculture__title {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #003E39;
+    text-align: center;
+}
+
+.immersive-agriculture__subtitle {
+    display: block;
+    text-align: center;
+    margin: 3rem 0 4rem 0;
+}
+
+.immersive-agriculture__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.immersive-agriculture__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.immersive-agriculture__img {
+    width: 90%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.immersive-agriculture__item-title {
+    margin: 2rem 0 1rem 0;
+    color: #003E39;
+    font-weight: 600;
+}
+
+.immersive-agriculture__item-text {
+    display: block;
+    width: 90%;
+    line-height: 2rem;
+}
+
+.discover-growth {
+    padding: 4rem 0;
+}
+
+.discover-growth-content {
+    display: flex;
+}
+
+.discover-growth__img-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.discover-growth__img {
+    width: 80%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.discover-growth__infos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 4rem;
+}
+
+.discover-growth__title {
+    color: #003E39;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.discover-growth__infos-detail {}
+
+.discover-growth__text {
+    width: 65%;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.discover-growth__link {
+    padding: 0.5rem 1rem;
+    border: 2px solid #003E39;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    font-size: 1.2rem;
+    color: #003E39;
+    font-weight: 600;
+}
+
+.new-perspective {}
+
+.new-perspective__video {
+    position: relative;
+    height: 50rem;
+    /* background-image: url(../images/innovation-agriculture3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+.new-perspective__video-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.new-perspective__video-btn-wrapper {
+    width: 9rem;
+    height: 9rem;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateX(95rem);
+    -webkit-transform: translateX(95rem);
+    -moz-transform: translateX(95rem);
+    -ms-transform: translateX(95rem);
+    -o-transform: translateX(95rem);
+    cursor: pointer;
+    box-shadow: 0 0 3px 0px #ebebeb;
+}
+
+.new-perspective__video-btn {
+    width: 6rem;
+    height: 6rem;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 3px 0px #ebebeb;
+    /* position: absolute;
+    top: 50%;
+    transform: translateX(95rem);
+    -webkit-transform: translateX(95rem);
+    -moz-transform: translateX(95rem);
+    -ms-transform: translateX(95rem);
+    -o-transform: translateX(95rem); */
+}
+
+.new-perspective__video-btn-icon {
+    fill: #fff;
+    width: 25px;
+}
+
+.new-perspective__overlay {
+    background-color: #003E39;
+    padding: 6rem 0;
+}
+
+.new-perspective__title {
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.soil-harvest {
+    padding: 6rem 0 8rem 0;
+}
+
+.soil-harvest__title {
+    text-align: center;
+    color: #003E39;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.soil-harvest__text {
+    width: 50%;
+    text-align: center;
+    margin: 2rem auto 4rem auto;
+    line-height: 2rem;
+}
+
+.soil-harvest__images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.soil-harvest__img-link {}
+
+.soil-harvest__img {
+    width: 100%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.soil-harvest__link {
+    color: #0f4c3a;
+    border: 1px solid #0f4c3a;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    padding: 1rem 0;
+    display: block;
+    width: 8rem;
+    margin: 2rem auto 0 auto;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.frequently-questions {
+    padding: 2rem 0 4rem 0;
+}
+
+.frequently-questions__title {
+    text-align: center;
+    font-size: 4rem;
+    color: #003E39;
+    font-weight: 600;
+    margin-bottom: 6rem;
+}
+
+.frequently-questions__items {}
+
+.frequently-questions__item {
+    width: 70%;
+    margin: 0 auto 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ebebeb;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    color: #0f4c3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frequently-questions__item:last-child {
+    margin-bottom: 0;
+}
+
+.frequently-questions__item-title {}
+
+.frequently-questions__item-question {
+    margin-bottom: 1rem;
+}
+
+.frequently-questions__item-reply {
+    display: none;
+    font-size: 1.4rem;
+    color: #b9b4b4;
+}
+
+.frequently-questions__item-icon {
+    cursor: pointer;
+}
+
+.frequently-questions__item-icon-plus {}
+
+.frequently-questions__item-icon-minus {
+    display: none;
+}
+
+.step-into-field {
+    height: 70rem;
+    background-image: url(../images/header-main.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.step-into-field__title {
+    font-size: 4rem;
+    font-weight: 600;
+    padding-top: 36rem;
+}
+
+.step-into-field__subtitle {
+    display: block;
+    margin: 3rem 0;
+    font-size: 1.2rem;
+}
+
+.step-into-field__link {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    font-size: 1.4rem;
+}
+
+/* 
+Footer
+*/
+.footer {
+    background-color: #0f4c3a;
+    color: #bdd5ce;
+    padding: 5rem 0 2rem 0;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer__logo-img {}
+
+.footer__logo-title {
+    font-weight: 600;
+    color: #dfe5e3;
+}
+
+.footer__description {
+    width: 41%;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin: 2rem auto 4rem auto;
+
+}
+
+.footer-nav {
+    display: flex;
+    gap: 10rem;
+}
+
+.footer-menu {}
+
+.footer-menu__title {
+    margin-bottom: 1.5rem;
+    color: #dfe5e3;
+}
+
+.footer-menu-list {}
+
+.footer-menu-list__item {
+    margin-bottom: 1rem;
+    color: #bdd5ce;
+    font-size: 1.4rem;
+}
+
+.footer-menu-list__link {
+    color: inherit;
+}
+
+.footer__rights {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__rights-text {}
